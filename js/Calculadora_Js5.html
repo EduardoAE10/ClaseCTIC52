@@ -5,27 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="Calculadora_Js5.css">
 </head>
 <body>
     <h1>Calculadora</h1>
-    <div>
-        <div>
+    <div class="margen">
+        <div class="n1">
             <label for="num1">Primer Numero</label>
             <input type="text" name="num1" id="num1">
         </div>
         <br>
-        <div>
+        <div class="n2">
             <label for="num2">Segundo Numero</label>
             <input type="text" name="num2" id="num2">
         </div>
         <br>
-        <div>
+        <div class="op">
             <label for="operacion">Operacion/Signo</label>
             <input type="text" name="operacion" id="operacion">
         </div>
         <br>
         <div>
-            <div>
+            <div class="resul">
                 <label for="resultado">Resultado</label>
                 <input type="text" name="resultado" id="resultado">
             </div>
@@ -36,5 +37,31 @@
         </div>
     </div>
     <script src="Calculadora_Js5.js"></script>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+
+    <h1>Tablas de Multiplicar</h1>
+
+    <div>
+        <label for="Tabla">Tabla del: </label>
+        <input type="text" name="numero" id="Tabla">
+    </div>
+    <div>
+        <label for="long">Longitud : </label>
+        <input type="text" name="numero" id="long">  
+    </div>
+    <button onclick = ImpTabla()>Imprimir</button>
+    <ul id="tabla"></ul>
+
+    <script src="Calculadora_Js5.js"></script>
+
+<hr>
+
 </body>
 </html>

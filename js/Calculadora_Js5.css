@@ -1,0 +1,15 @@
+.margen{
+    border: 5px solid black;
+    height: 200px;
+    width: 280px;
+    display: inline-block;
+    margin: 45px;
+}
+
+.n1{
+    border: 5px solid black;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin: 2px;
+}
