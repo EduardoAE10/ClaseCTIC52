@@ -1,6 +1,6 @@
 
 
-let hora = 5;
+let hora = 4;
 let frecuencia = 6;
 
 let tomas = 24 / frecuencia;
