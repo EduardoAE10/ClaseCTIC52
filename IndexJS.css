@@ -1,0 +1,16 @@
+h1{
+    background-color: rgb(100, 150, 84);
+    color: beige;
+}
+
+.boton{
+    display: inline-block;
+    color: black;
+    background: rgb(162, 219, 143);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background: rgb(200, 255, 182);
+}
